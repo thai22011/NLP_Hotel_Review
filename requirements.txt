@@ -1,0 +1,7 @@
+# `geopy` isnt available in conda so needs to create the `nlp_env` first then `pip install geopy` inside the environment
+
+conda create -n nlp_env python=3.8 numpy pandas matplotlib seaborn statsmodels scikit-learn==0.24.1 jupyter jupyterlab nltk geopandas plotly
+
+conda activate nlp_env
+
+pip install geopy
