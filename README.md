@@ -60,7 +60,9 @@ The results of NLP for negative and positive reviews are below:
 
 ## PART 2
 
-The train set was separated into the train and validation sets. This was to prevent data leakage into the test set. Feature decomposition methods such as PCA were used to cut down the processing time for ML models and reduce overfitting (due to multi-collinearity). For both KNN and DecisionTree Classifiers, fine-tuning K-value was important to find the highest accuracy score for both the train and test sets with the best fitting. For multi-models, cross-5-validation and ML pipelines could be used to automatically fine-tune the parameters.
+The train set was separated into the train and validation sets. This was to prevent data leakage into the test set. Feature decomposition methods such as PCA were used to cut down the processing time for ML models and reduce overfitting (due to multi-collinearity). 
+
+For both KNN and DecisionTree Classifiers, fine-tuning K-value was important to find the highest accuracy score for both the train and test sets with the best fitting. For multi-models, cross-5-validation and ML pipelines could be used to automatically fine-tune the parameters.
 
 We applied machine learning models such as Linear, KNN & DecisionTree Classifiers to the target column of interest: `Reviewer_Score`. 
 The accuracy score of the classifiers models are below:
