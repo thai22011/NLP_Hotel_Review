@@ -1,4 +1,4 @@
-# Natural Language Processing with Reviews from International Hotel brands in Europe
+# Natural Language Processing with Hotel Reviews on Booking.com
 
 ## INTRODUCTION
 NLP techniques can be used to automatically classify reviews as positive, negative, or neutral, or to extract specific topics or themes mentioned in the reviews. In the context of hotel reviews on Booking.com, NLP can be useful for hotel owners and managers to understand what guests like or dislike about their property and to identify areas for improvement. 
@@ -87,7 +87,7 @@ Use this bibtex to cite this repository:
 
 ```
 @misc{thai22011_NLP_Hotel_Review_2022,
-  title={Natural Language Processing with Reviews from International Hotel brands in Europe},
+  title={Natural Language Processing with Hotel Reviews on Booking.com},
   author={Thai Nguyen},
   year={2022},
   publisher={Github},
