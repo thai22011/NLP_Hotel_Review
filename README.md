@@ -7,10 +7,6 @@ The project was separated into 2 parts. In part 1, a detailed Exploratory Data A
 
 Dataset: https://www.kaggle.com/datasets/jiashenliu/515k-hotel-reviews-data-in-europe
 
-
-
-## PART 1
-
 ## EDA
 
 The csv file contains 17 columns and 515,738 rows. The description of each column is below:
@@ -57,8 +53,6 @@ The results of NLP for negative and positive reviews are below:
 ![](assets/Datawrangling_top20test_neg.png)
 
 ![](assets/Datawrangling_top20test_pos.png)
-
-## PART 2
 
 The train set was separated into the train and validation sets. This was to prevent data leakage into the test set. Feature decomposition methods such as PCA were used to cut down the processing time for ML models and reduce overfitting (due to multi-collinearity). 
 
